@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+telemetry.db
+
+# Credenciais WiFi locais (use config.example.h como template)
+firmware/include/config.h
+
+# PlatformIO
+firmware/.pio/
+
+# IDE
+.vscode/
+.idea/
+.cursor/
